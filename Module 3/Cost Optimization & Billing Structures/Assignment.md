@@ -1,5 +1,3 @@
-Perfect! The assignment is complete and comprehensive. Let me output the markdown content directly:
-
 # Assignment: Cost Optimization & Billing Structures for Cloud AI
 
 ## Objective
@@ -152,54 +150,6 @@ D) The decision should be based purely on brand preference
 **Submission Format:** Write a 400-600 word analysis document (markdown, PDF, or Google Doc). Include clear headings for each section above.
 
 ---
-
-## SECTION 3: SYNTHESIS & ADVANCED APPLICATION (Hard - Subjective)
-
-### Question 10 (Subjective)
-**Difficulty:** Hard
-
-**Scenario:** You're building a cost-aware AI platform for a mid-sized e-commerce company. The platform will support three main use cases:
-1. **Real-time product recommendations** (inference, low latency required)
-2. **Nightly batch processing** for customer segmentation and personalization (high throughput, latency-tolerant)
-3. **Development and experimentation** environment for data scientists to test new models
-
-The company expects:
-- 10 million product recommendations per day (real-time)
-- 500 GB of customer data processed nightly
-- 20 data scientists running experiments
-
-**Your Task:**
-
-Design a comprehensive FinOps strategy for this platform that addresses:
-
-1. **Infrastructure Architecture Decisions:**
-   - For each use case, recommend whether to use pay-per-use, reserved capacity, or a hybrid approach. Justify each choice.
-   - Identify where spot instances, batch processing, or other cost-optimization techniques could apply.
-   - Explain how you'd separate or consolidate infrastructure across the three use cases and why.
-
-2. **Cost Monitoring & Accountability Framework:**
-   - Design a cost-tracking system that assigns costs to: (a) each use case, (b) each data scientist or team, and (c) each feature within the recommendation engine.
-   - Define 2-3 key performance indicators (KPIs) that would help the company understand cost-per-unit (e.g., cost per recommendation, cost per GB processed, cost per experiment).
-   - Explain how you'd implement chargeback or showback mechanisms to make teams cost-aware.
-
-3. **Risk Mitigation & Trade-offs:**
-   - Identify three potential risks or challenges in your design (e.g., performance degradation, team friction over costs, unexpected cost spikes).
-   - For each risk, propose a mitigation strategy.
-
-4. **Roadmap for Continuous Optimization:**
-   - Outline a quarterly review process to identify new optimization opportunities.
-   - Describe how you'd balance cost reduction with innovation and performance requirements.
-
-**Submission Format:** Create a comprehensive design document (2-3 pages, markdown, PDF, Google Doc, or Slides). Include:
-- An executive summary (1 paragraph)
-- Clearly labeled sections for each of the four requirements above
-- A simple diagram or table showing your infrastructure recommendations
-- Specific metrics and examples where possible
-
----
-
----
-
 # ANSWER KEY AND SOLUTIONS
 
 ## SECTION 1: FOUNDATIONAL KNOWLEDGE - ANSWER KEY
@@ -376,10 +326,6 @@ The chatbot processes 50,000 interactions daily, with costs driven by:
 - Set up alerts for cost anomalies (e.g., if daily spend exceeds $2,500)
 
 ---
-
-## SECTION 3: HARD QUESTION - SAMPLE SOLUTION
-
-### Question 10: Sample Solution
 
 **Title: Comprehensive FinOps Strategy for E-Commerce AI Platform**
 

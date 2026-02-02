@@ -1,5 +1,3 @@
-I apologize for the technical difficulty. Let me provide the comprehensive lecture notes directly:
-
 # Cost Optimization & Billing Structures for Cloud AI
 
 ## What You'll Learn
